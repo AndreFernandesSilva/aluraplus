@@ -1,0 +1,195 @@
+:root {
+    --color-primary: #FFFFFF;
+    --color-secondary: #c0c0c0;
+    --color-tertiary: #EC2F46;
+    --color-quaternary: #F9F9F9;
+    --color-background-button: #167BF7;
+    --color-background: #00030C;
+    --color-background-combo: #040814;
+    --font-primary: 'Inter', sans-serif;
+    --weight-title: 700px;
+    --weight-button: 512px;
+    --weight-p-sub: 400px;
+    --size-title: 1.75rem;
+    --size-alert: 0.75rem;
+    --size-subtitle: 3rem;
+    --size-button: 1rem;
+    --size-p-sub: 1rem;
+    --size-text-figure: 2rem;
+    --size-p-footer-primary: 1rem;
+    --size-p-footer-secundary: 0.87rem;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-primary);
+    font-family: var(--font-primary);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.primary {
+    background-image: url("image/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container__img__combo {
+    margin: 1.37rem 0 3.37rem 0;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__primary {
+    margin: 0 3.37rem;
+}
+
+.container__title {
+    font-size: var(--size-title);
+    font-weight: var(--weight-title);
+}
+
+.container__button {
+    background-color: var(--color-background-button);
+    border-radius: 8px;
+    padding: 16px;
+    color: var(--color-primary);
+    display: block;
+    text-decoration: none;
+    font-weight: var(--weight-button);
+    font-size: var(--size-button);
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.button__secundary {
+    background-color: transparent;
+    border: 1px solid var(--color-primary);
+}
+
+.container__alert {
+    font-size: var(--size-alert);
+    color: var(--color-secondary);
+    font-weight: var(--weight-p-sub);
+    display: flex;
+    justify-content: center;
+}
+
+.secundary {
+    align-items: center;
+    margin: 0 10.31rem;
+}
+
+.container__img__platforms {
+    width: 80%;
+}
+
+.description__title {
+    font-size: var(--size-subtitle);
+    font-weight: var(--weight-title);
+    color: var(--color-primary);
+}
+
+.description__paragraph {
+    font-size: var(--size-p-sub);
+    font-weight: var(--weight-p-sub);
+    margin-top: 0.5rem;
+    color: var(--color-quaternary);
+}
+
+.description__paragraph__screens {
+    font-size: var(--size-p-sub);
+    font-weight: var(--weight-p-sub);
+    margin: 0 4.37rem 0 0;
+    color: var(--color-quaternary);
+}
+
+.button__tertiary {
+    background-color: var(--color-background-button);
+    border-radius: 8px;
+    color: var(--color-primary);
+    display: inline-block;
+    text-decoration: none;
+    font-weight: var(--weight-button);
+    font-size: var(--size-button);
+    margin-top: 1rem;
+}
+
+.container__img__screens {
+    width: 80%;
+}
+
+.container__img__notbook {
+    width: 90%;
+}
+
+.tertiary {
+    display: block;
+    text-align: center;
+}
+
+.container__img__items {
+    display: flex;
+    justify-content: center;
+    gap: 4.31rem;
+    margin-top: 4.31rem;
+}
+
+.text__items {
+    font-size: var(--size-text-figure);
+    font-weight: var(--weight-title);
+}
+
+.footer {
+    margin-top: 3.06rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.container__img__alura {
+    width: 8%;
+}
+
+.footer__links {  
+    margin-top: 2.54rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.footer__link__navegation {
+    text-decoration: none;
+    font-size: var(--size-p-footer-primary);
+    color: var(--color-primary);
+    font-weight: var(--weight-p-sub);
+}
+
+.footer__description {
+    font-size: var(--size-p-footer-secundary);
+    color: var(--color-secondary);
+    font-weight: var(--weight-p-sub);
+    text-align: center;
+    margin: 1.5rem 7.5rem;
+}
+
+.footer__description__paragraph {
+    font-weight: var(--weight-p-sub);
+}
+
+.footer__description__alert {
+    margin-top: 1.5rem;
+    font-weight: var(--weight-p-sub);
+}
